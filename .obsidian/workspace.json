@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "75f369bff950cdd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7852889a3157f185",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67ed685aec7634bb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "2be0833112a8f008",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WEEK 1"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c01f828de08e3d49",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb3e9dc11159a73a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40cd216b1acec084",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1dd388ef5ad9e14b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3e4259d7226cdb87",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "ac58d0941c56afae",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fcb938ade7a6ab4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a101535f0259640",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "861d8ee2a6a364bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CSC 423 - COMPUTER NETWORKS/WEEK 3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of WEEK 3"
+            }
+          },
+          {
+            "id": "5b2fd1b95134c86c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for WEEK 3"
+            }
+          },
+          {
+            "id": "74186116d386629f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from WEEK 3"
+            }
+          },
+          {
+            "id": "bc274a992d9db48d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 437.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "2be0833112a8f008",
+  "lastOpenFiles": [
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 1.md",
+    "notes",
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 2.md",
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 3.md",
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/_TOC_.md",
+    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 3.md",
+    "CSC 423 - COMPUTER NETWORKS/WEEK 3.md",
+    "CSC 423 - COMPUTER NETWORKS/WEEK 2.md",
+    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 2.md",
+    "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 4.md",
+    "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 3.md",
+    "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 2.md",
+    "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 1.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "assets/Pasted image 20251025132428.png",
+    "Untitled",
+    "assets/Pasted image 20251025132045.png",
+    "assets/Pasted image 20251025123218.png",
+    "assets/Pasted image 20251025132315.png",
+    "assets/Pasted image 20251025132151.png",
+    "assets/Pasted image 20251025131616.png",
+    "assets/Pasted image 20251025131056.png",
+    "assets/Pasted image 20251025131003.png",
+    "assets/Pasted image 20251025130937.png",
+    "assets/Pasted image 20251025130349.png",
+    "CSC 441 - HUMAN COMPUTER INTERACTION",
+    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES",
+    "CSC 423 - COMPUTER NETWORKS",
+    "assets/~$odule2.docx",
+    "Welcome.md",
+    "assets/Module2.docx",
+    "~$odule1.docx",
+    "assets/module1 1.docx",
+    "assets/module1.docx"
+  ]
+}
