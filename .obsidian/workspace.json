@@ -21,14 +21,14 @@
             "id": "2be0833112a8f008",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 1.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "WEEK 1"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -193,6 +193,14 @@
   },
   "active": "2be0833112a8f008",
   "lastOpenFiles": [
+    "CSC 403 - SOFTWARE ENGINEERING/WEEK 2.md",
+    "CSC 403 - SOFTWARE ENGINEERING/WEEK 1.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/Parallel computing.md",
+    "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 5.md",
+    "CSC 421 - NET-CENTRIC COMPUTING",
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 4.md",
+    "CSC 403 - SOFTWARE ENGINEERING",
+    "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 1.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 1.md",
     "notes",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 2.md",
@@ -205,12 +213,10 @@
     "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 4.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 3.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 2.md",
-    "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 1.md",
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled.md",
     "assets/Pasted image 20251025132428.png",
-    "Untitled",
     "assets/Pasted image 20251025132045.png",
     "assets/Pasted image 20251025123218.png",
     "assets/Pasted image 20251025132315.png",
@@ -227,7 +233,6 @@
     "Welcome.md",
     "assets/Module2.docx",
     "~$odule1.docx",
-    "assets/module1 1.docx",
-    "assets/module1.docx"
+    "assets/module1 1.docx"
   ]
 }
