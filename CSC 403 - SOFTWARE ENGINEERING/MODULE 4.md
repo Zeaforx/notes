@@ -395,6 +395,8 @@ The most commonly used diagram. It shows the system's static structure.
 - **Fields:** `AcctName`, `AcctType`, `Balance`
     
 - **Methods:** `AddNew()`, `Close()`
+
+	![[Pasted image 20260107113712.png]]
     
 
 ### 7.2 Use Case Diagram (Behavioral)
@@ -406,6 +408,7 @@ Describes how the system is used by authorized users.
 - **Use Cases:** Ovals representing actions (e.g., "Order Food," "Pay Bill").
     
 - **Lines:** Show which actor performs which action.
+	![[Pasted image 20260107113956.png]]
     
 
 **Example Use Case: Restaurant**
@@ -506,54 +509,206 @@ _Scenario: You are part of a 4-person team developing a mid-size fault-tolerant 
     - _Answer:_ To manage the budget, schedule tasks, ensure the team meets deadlines, and handle resources effectively within the 4-man team.
         
 
-### B. Architectural Concepts
+## Part B: Architectural Concepts
 
-1. **Why is there a need to document software architecture?**
+### 1. Why is there a need to document software architecture?
+
+Documenting software architecture is a critical step in the development lifecycle for several reasons:
+
+- **Stakeholder Communication:** It provides a common high-level language that allows stakeholders (clients, managers, developers, and testers) to discuss the system without getting bogged down in low-level code.
     
-    - _Answer:_ To facilitate communication between stakeholders, capture early design decisions, and align the diverse expertise of team members (analysts, programmers, etc.).
+- **Capture Early Design Decisions:** Architecture represents the earliest set of design decisions. These decisions are the most difficult to change later and have the highest impact on the system’s quality (security, performance, scalability).
+    
+- **Work Partitioning:** It allows the project manager to break the system into manageable modules or "work packages" that can be assigned to different teams or specialists.
+    
+- **Knowledge Transfer:** It serves as a training guide for new team members to understand how the system works and where specific features reside.
+    
+
+### 2. 3-Tier Software Architecture
+
+The 3-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers.
+
+#### The Stack Diagram
+
+```
+[   Tier 1: Presentation Layer   ]  <-- User Interface (Web/Mobile)
+               |
+               v
+[   Tier 2: Logic/Process Layer  ]  <-- Business Rules & Calculations
+               |
+               v
+[   Tier 3: Data/Backend Layer   ]  <-- Database & Data Storage
+```
+
+## Part C: Modeling & Diagrams
+
+### 1. Banking Software Class Diagram (Textual Representation)
+
+**Goal:** Define the structure of a banking system.
+
+- **Class: Customer**
+    
+    - _Attributes:_ `name` (String), `address` (String), `customerID` (String)
         
-2. **Write extensively on 3-tier software architecture (Use diagram).**
+- **Class: Account**
     
-    - _Answer:_ Explain Presentation, Processing, and Backend layers. Draw the stack: [User Interface] -> [Business Logic] -> [Database]. Explain that it allows independent updating of layers.
+    - _Attributes:_ `accountNumber` (String), `balance` (double), `accountType` (String)
+        
+    - _Methods:_ `deposit(amount)`, `withdraw(amount)`, `getBalance()`
+        
+- **Class: Transaction**
+    
+    - _Attributes:_ `transactionID` (String), `amount` (double), `timestamp` (Date)
+        
+- **Relationships:** A **Customer** _owns_ an **Account**. An **Account** _records_ multiple **Transactions**.
+    
+
+### 2. Undergraduate Details Class Diagram
+
+**Class: Undergraduate**
+
+- **Attributes:**
+    
+    - `matricNo`: String
+        
+    - `surname`: String
+        
+    - `firstName`: String
+        
+    - `maritalStatus`: String
+        
+    - `age`: int
+        
+    - `gender`: String
+        
+- **Methods:**
+    
+    - `regCourse()`: Handles course enrollment.
+        
+    - `pay()`: Handles tuition payments.
+        
+    - `printReceipt()`: Generates payment confirmation.
         
 
-### C. Modeling & Diagrams
+### 3. Banking Hall Use Case Diagram
 
-1. **Banking Software Class Diagram:**
-    
-    - _Task:_ Draw a class diagram for a banking app.
-        
-    - _Key Classes:_ `Customer`, `Account`, `Transaction`.
-        
-    - _Attributes:_ `Account.balance`, `Customer.name`.
-        
-    - _Methods:_ `Account.deposit()`, `Account.withdraw()`.
-        
-2. **Undergraduate Details Class Diagram:**
-    
-    - _Task:_ Representation of personal details of an undergraduate.
-        
-    - _Attributes:_ `MatricNo` (String), `MaritalStatus` (String), `Age` (int), `Gender` (String).
-        
-    - _Methods:_ `regCourse()`, `pay()`, `printReceipt()`.
-        
-3. **Banking Hall Use Case Diagram:**
-    
-    - _Task:_ Model day-to-day activities of 4 actors.
-        
-    - _Actors:_ Customer, Cashier, Manager, Security/Gateman.
-        
-    - _Actions:_ Customer deposits/withdraws; Cashier attends to customer; Manager manages activities; Gateman directs vehicles.
-        
+**System Boundary:** Banking Hall Operations
+
+|**Actor**|**Primary Use Cases (Actions)**|
+|---|---|
+|**Customer**|Deposit Funds, Withdraw Cash, Request Statement|
+|**Cashier**|Process Deposit, Process Withdrawal, Verify Identity|
+|**Manager**|Authorize Large Transactions, Resolve Complaints, Manage Staff|
+|**Security**|Direct Vehicles, Monitor Entrance, Ensure Order|
 
 ### D. Java Programming Exercises
 
 1. **University Student Data Entry:**
     
     - _Task:_ Write a Java program that accepts: Matric no, surname, first name, middle name, faculty, department, level, and age.
+```java title:uni-student-data-entry
+import java.util.Scanner;
+
+public class StudentEntry {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("--- University Student Data Entry ---");
         
+        System.out.print("Enter Matric No: ");
+        String matricNo = scanner.nextLine();
+        
+        System.out.print("Enter Surname: ");
+        String surname = scanner.nextLine();
+        
+        System.out.print("Enter First Name: ");
+        String firstName = scanner.nextLine();
+        
+        System.out.print("Enter Middle Name: ");
+        String middleName = scanner.nextLine();
+        
+        System.out.print("Enter Faculty: ");
+        String faculty = scanner.nextLine();
+        
+        System.out.print("Enter Department: ");
+        String department = scanner.nextLine();
+        
+        System.out.print("Enter Level: ");
+        int level = scanner.nextInt();
+        
+        System.out.print("Enter Age: ");
+        int age = scanner.nextInt();
+
+        System.out.println("\n--- Student Profile Created ---");
+        System.out.println("Full Name: " + surname + ", " + firstName + " " + middleName);
+        System.out.println("Matric No: " + matricNo);
+        System.out.println("Department: " + department + " (" + faculty + ")");
+        System.out.println("Level: " + level + " | Age: " + age);
+        
+        scanner.close();
+    }
+}
+```
+
 2. **Payroll System Assignment:**
     
     - _Task:_ Identify 8 data items for a staff payroll system, name the class, draw a class diagram, and write the Java program.
         
     - _Hint (Data Items):_ StaffID, Surname, FirstName, BasicSalary, Tax, HousingAllowance, TransportAllowance, NetPay.
+``` java title:payroll-system-assignment
+import java.util.Scanner;
+
+public class StaffPayroll {
+    // Data Items
+    String staffID;
+    String surname;
+    String firstName;
+    double basicSalary;
+    double tax;
+    double housingAllowance;
+    double transportAllowance;
+    double netPay;
+
+    public void calculatePayroll(double basic, double housing, double transport) {
+        this.basicSalary = basic;
+        this.housingAllowance = housing;
+        this.transportAllowance = transport;
+        
+        // Assume Tax is 10% of Basic Salary
+        this.tax = basic * 0.10;
+        
+        // NetPay = (Basic + Housing + Transport) - Tax
+        this.netPay = (basic + housing + transport) - tax;
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        StaffPayroll staff = new StaffPayroll();
+
+        System.out.println("--- Staff Payroll System ---");
+        System.out.print("Staff ID: ");
+        staff.staffID = input.nextLine();
+        System.out.print("Surname: ");
+        staff.surname = input.nextLine();
+        System.out.print("First Name: ");
+        staff.firstName = input.nextLine();
+        
+        System.out.print("Basic Salary: ");
+        double b = input.nextDouble();
+        System.out.print("Housing Allowance: ");
+        double h = input.nextDouble();
+        System.out.print("Transport Allowance: ");
+        double t = input.nextDouble();
+
+        staff.calculatePayroll(b, h, t);
+
+        System.out.println("\n--- Pay Slip ---");
+        System.out.println("Staff: " + staff.surname + " " + staff.firstName + " (" + staff.staffID + ")");
+        System.out.println("Gross: " + (staff.basicSalary + staff.housingAllowance + staff.transportAllowance));
+        System.out.println("Tax Deducted (10%): " + staff.tax);
+        System.out.println("Net Salary: " + staff.netPay);
+        
+        input.close();
+    }
+}
+```

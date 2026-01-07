@@ -426,4 +426,4 @@ The focus of AI research has undergone significant shifts since the Dartmouth Co
 - **Expert Systems Era (1980s):** The goal shifted from the very broad (AGI) to the very narrow. The focus moved to creating **Expert Systems (a form of ANI)** that could capture the knowledge of a human expert in a specific domain. The approach was still primarily Symbolic AI, but the application was specialized.
     
 - **Modern Focus (2010s-Present):** There has been a massive paradigm shift towards the **Connectionist approach**, specifically **Machine Learning and Deep Learning**. While the applications are still forms of **ANI**, the method is entirely different. The focus is no longer on programming explicit knowledge and rules, but on creating systems that can **learn** patterns and knowledge automatically from vast amounts of data. The key drivers are big data, powerful hardware (GPUs), and advanced algorithms.
-[[Module 2]]
+[[CSC 411 - ARTIFICIAL INTELLIGENCE/Module 2]]

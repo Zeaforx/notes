@@ -59,32 +59,51 @@ Software is the fabric of modern society. It drives:
 
 ### 2.1 Classes of Software
 
-Software is generally classified into two categories based on the target audience.
+Software is categorized in several ways depending on its purpose, target audience, and legal licensing. Understanding these distinctions is fundamental to determining the right development process.
 
-#### 1. Generic Software
+#### A. Classification by Purpose (The Primary Hierarchy)
 
-- **Definition:** Stand-alone systems produced by a development company and sold on the open market to any customer who wants to buy them.
+1. **System Software:** The "Backbone" of the computer. It provides a platform for other software and manages hardware resources (e.g., Windows, macOS, Device Drivers).
     
-- **Who is in Control?** The **Developer**. They decide what features to include based on general market research.
+2. **Application Software:** Programs designed for end-users to perform specific tasks. This is the category containing Generic and Bespoke software.
     
-- **Examples:** Microsoft Word, Google Chrome, Norton Antivirus, Video Games (FIFA, Call of Duty).
+3. **Utility Software:** Specialized tools for system maintenance and optimization (e.g., Antivirus, File Compression like 7-Zip).
     
 
-#### 2. Customized (Bespoke) Software
+#### B. Classification by Acquisition (Target Audience)
 
-- **Definition:** Systems commissioned by a specific customer to meet their unique, specific needs.
-    
-- **Who is in Control?** The **Customer**. They dictate exactly what the software must do and how it should behave.
-    
-- **Examples:**
-    
-    - A Patient Record System specifically for _Apollo Hospital_.
-        
-    - An Air Traffic Control system for _Heathrow Airport_.
-        
-    - A manufacturing control system for a specific factory.
-        
+This classification identifies who the software is built for and who controls its evolution.
 
+|   |   |   |
+|---|---|---|
+|**Feature**|**Generic Software (Off-the-Shelf)**|**Bespoke Software (Custom/Tailored)**|
+|**Definition**|Stand-alone systems produced for the open market.|Systems commissioned by a specific customer for unique needs.|
+|**Control**|The **Developer** decides on features and updates.|The **Customer** dictates requirements and owns the logic.|
+|**Cost**|Relatively low (shared by many users).|High (client bears the full development cost).|
+|**Flexibility**|Limited to built-in settings.|Highly flexible; evolves with the specific business.|
+|**Examples**|Microsoft Word, Google Chrome, FIFA 24.|A custom Patient Portal for Apollo Hospital, NASA's Mars Rover software.|
+
+#### C. Classification by Licensing (Legal/Economic)
+
+- **Proprietary:** Closed-source; you pay for a license but cannot see the code (e.g., Adobe Photoshop).
+    
+- **Open Source:** The source code is public and can be modified by anyone (e.g., Linux, VLC Media Player).
+    
+- **Freeware:** Distributed at no cost, though the source code remains private (e.g., Skype).
+    
+- **Shareware:** Provided free on a trial basis, often with limited features until purchased (e.g., WinRAR).
+    
+
+#### D. Classification by Environment/Architecture
+
+- **Embedded Software:** Resides within hardware that isn't primarily a computer (e.g., Microwave logic, Car ABS systems).
+    
+- **Cloud/SaaS (Software as a Service):** Hosted on remote servers and accessed via a browser (e.g., Google Docs, Netflix).
+    
+- **Mobile Apps:** Specifically optimized for low-power, touch-based mobile devices.
+    
+
+> **Summary Note:** Regardless of the class, software is **engineered** rather than manufactured. As noted in Module 5, it does not "wear out" like hardware; instead, it deteriorates through constant changes and environmental shifts.
 ### 2.2 The Software Development Life Cycle (SDLC)
 
 Software development follows a structured cycle, often summarized as:
@@ -278,6 +297,8 @@ Hardware follows a specific failure pattern called the Bathtub Curve:
 2. **Useful Life:** Failure rate drops and stabilizes. The product works well.
     
 3. **Wear-Out Phase:** Failure rate rises again as parts physically degrade (rust, dust, vibration).
+
+![[Pasted image 20260107095311.png]]
     
 
 #### The Software Curve
@@ -289,7 +310,7 @@ Software has **no physical parts** to wear out.
 - **The Reality:** Software deteriorates due to **Change**. Every time we change the software (to add features or fix bugs), we risk introducing new errors, causing the failure rate to spike again.
     
 - **Obsolescence:** Software doesn't rust, but it becomes "obsolete" when the environment (OS, Hardware) changes and the software can no longer keep up.
-    
+    ![[Pasted image 20260107095430.png]]
 
 ## Module 6: The Software Crisis
 
