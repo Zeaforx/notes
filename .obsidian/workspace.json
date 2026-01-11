@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSC 411 - ARTIFICIAL INTELLIGENCE/_TOC_.md",
+                "file": "CSC 403 - SOFTWARE ENGINEERING/Past Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_TOC_"
+              "title": "Past Questions"
+            }
+          },
+          {
+            "id": "156cc8c1274e35b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Potential Questions for Exam"
             }
           }
         ]
@@ -180,26 +194,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "40cd216b1acec084",
+  "active": "49e67d2fbc796ac1",
   "lastOpenFiles": [
-    "CSC 403 - SOFTWARE ENGINEERING/Potential Question.md",
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 5.md",
+    "CSC 403 - SOFTWARE ENGINEERING/Past Questions.md",
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
+    "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md",
+    "CSC 441 - HUMAN COMPUTER INTERACTION/Past Questions.md",
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 2.md",
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/_TOC_.md",
     "CSC 423 - COMPUTER NETWORKS/Formula Cheat Sheat.md",
     "CSC 423 - COMPUTER NETWORKS/WEEK 5.md",
     "CSC 423 - COMPUTER NETWORKS/WEEK 5.MD",
     "CSC 403 - SOFTWARE ENGINEERING/Potential questions.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 2.md",
-    "CSC 411 - ARTIFICIAL INTELLIGENCE/_TOC_.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 3.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 2.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 4.md",
     "CSC 423 - COMPUTER NETWORKS/Formula Cheat Sheet.md",
     "CSC 423 - COMPUTER NETWORKS/recipe.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 5.md",
     "CSC 423 - COMPUTER NETWORKS/WEEK 4.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 5.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 1.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 7.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 5.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 6.md",
@@ -211,8 +227,6 @@
     "CSC 423 - COMPUTER NETWORKS/WEEK 3.md",
     "CSC 423 - COMPUTER NETWORKS/WEEK 2.md",
     "Untitled 2.md",
-    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 3.md",
-    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 2.md",
     "assets/Pasted image 20251227154843.png",
     "assets/Pasted image 20251227171831.png",
     "assets/Pasted image 20251227171447.png",

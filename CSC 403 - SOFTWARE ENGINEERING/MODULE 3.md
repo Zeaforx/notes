@@ -122,12 +122,12 @@ A **Software Design Pattern** is a general, reusable solution to a commonly occu
 
 ### Classification of Patterns
 
-|   |   |   |   |
-|---|---|---|---|
-|**Category**|**Purpose**|**Examples**|**Real-World Application**|
-|**Creational Patterns**|Focus on **object creation** mechanisms, creating objects in a controlled way.|Singleton, Factory Method, Abstract Factory, Builder, Prototype|Use a **Singleton** pattern to ensure only one "Database Connection" object exists for the entire app.|
-|**Structural Patterns**|Focus on **class and object composition** to form larger, more functional structures.|Adapter, Bridge, Facade, Flyweight, Proxy|Use an **Adapter** pattern to allow a new payment system to work with an old legacy checkout system.|
-|**Behavioral Patterns**|Focus on **communication** between objects and how they assign responsibilities.|Iterator, Mediator, Observer, Memento, Chain of Responsibility|Use the **Observer** pattern to notify all followers (objects) when a user posts a new update.|
+|                         |                                                                                       |                                                                 |                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Category**            | **Purpose**                                                                           | **Examples**                                                    | **Real-World Application**                                                                             |
+| **Creational Patterns** | Focus on **object creation** mechanisms, creating objects in a controlled way.        | Singleton, Factory Method, Abstract Factory, Builder, Prototype | Use a **Singleton** pattern to ensure only one "Database Connection" object exists for the entire app. |
+| **Structural Patterns** | Focus on **class and object composition** to form larger, more functional structures. | Adapter, Bridge, Facade, Flyweight, Proxy                       | Use an **Adapter** pattern to allow a new payment system to work with an old legacy checkout system.   |
+| **Behavioral Patterns** | Focus on **communication** between objects and how they assign responsibilities.      | Iterator, Mediator, Observer, Memento, Chain of Responsibility  | Use the **Observer** pattern to notify all followers (objects) when a user posts a new update.         |
 
 ## V. The Two Ends of Software Design
 

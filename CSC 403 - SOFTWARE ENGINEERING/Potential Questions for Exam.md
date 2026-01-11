@@ -5,3 +5,5 @@ How to use functional requirements to solve non-functional requirement(e.g secur
 Static vs dynamic login(with examples and code)
 API in VB
 Connecting VB to a database
+Robot Control System Architecture: The notes reference a **Packing Robot Control System**. This architecture demonstrates how different modules communicate to perform a physical task.
+
