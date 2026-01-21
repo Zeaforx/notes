@@ -388,6 +388,8 @@ Logic is powerful, but not always the most natural or efficient way to represent
     - `[Bird]` --(can_do)--> `[Fly]`
         
     - `[Animal]` --(property)--> `[CanBreathe]`
+		
+		![[Pasted image 20260114145800.png]]
         
 - **Key Feature: Inheritance.** Properties are inherited up the "is_a" chain. In the example, `Perry` _inherits_ the ability to `Fly` from `Bird`, and the property `CanBreathe` from `Animal`.
     

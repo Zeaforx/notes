@@ -156,15 +156,15 @@ This is the standard process for building and using an ML model.
     
     - **Information Gain (ID3):** Based on "entropy" (a measure of randomness). A "pure" node has zero entropy ($H=0$).
         
-        - **Entropy:** $H(S) = - \sum_{i} (p\_i \cdot \log_2 (p\_i))$, where $p\_i$ is the proportion of examples in class $i$.
+        - **Entropy:** $H(S) = - \sum_{i} (p_i \cdot \log_2 (p_i))$, where $p_i$ is the proportion of examples in class $i$.
             
-        - **Information Gain:** $IG(S,A) = H(S) - \sum_{v \in Values(A)} \frac{|S\_v|}{|S|} \cdot H(S\_v)$  
+        - **Information Gain:** $IG(S,A) = H(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} \cdot H(S_v)$  
             
         - The algorithm chooses the attribute $A$ that maximizes the Information Gain.
             
     - **Gini Impurity (CART):** A slightly faster calculation that measures the probability of misclassifying a randomly chosen element. Lower Gini = more pure.
         
-        - **Gini Impurity:** $Gini(S) = 1 - \sum_{i} (p\_i^2)$  
+        - **Gini Impurity:** $Gini(S) = 1 - \sum_{i} (p_i^2)$  
             
 - **Advantages:**
     
@@ -193,19 +193,20 @@ This is the standard process for building and using an ML model.
     
     The mathematical goal is to minimize the "within-cluster sum of squares" (WCSS):
     
-    $$J = \sum_{j=1}^{k} \sum_{i \in Cluster\_j} ||x\_i - \mu\_j||^2$$
+    $$J = \sum_{j=1}^{k} \sum_{i \in Cluster_j} ||x_{i} - \mu_j||^2$$
+
     
-    where $\mu\_j$ is the centroid of cluster $j$.
+    where $\mu_j$ is the centroid of cluster $j$.
     
-    1. **Initialize:** Randomly place `k` points (called "centroids," $\mu\_1, ..., \mu\_k$) on the data graph.
+    1. **Initialize:** Randomly place `k` points (called "centroids," $\mu_1, ..., \mu_k$) on the data graph.
         
-    2. Assign: Assign each data point $x\_i$ to its nearest centroid.
+    2. Assign: Assign each data point $x_i$ to its nearest centroid.
         
-        $Cluster\_j = \{i \text{ | } ||x\_i - \mu\_j||^2 \le ||x\_i - \mu\_l||^2 \text{ for all } l=1..k\}$
+        $Cluster_j = \{i \text{ | } ||x_i - \mu_j||^2 \le ||x_i - \mu_l||^2 \text{ for all } l=1..k\}$
         
     3. Update: Move each centroid to the average position (the "mean") of all the points assigned to it.
         
-        $\mu\_j = \frac{1}{|Cluster\_j|} \sum_{i \in Cluster\_j} x\_i$
+        $\mu_j = \frac{1}{|Cluster_j|} \sum_{i \in Cluster_j} x_i$
         
     4. **Repeat:** Repeat steps 2 and 3 until the centroids stop moving (the algorithm has "converged").
         
@@ -230,13 +231,13 @@ This is the standard process for building and using an ML model.
     
     The mathematical model for a single neuron is:
     
-    $$y = f(\sum_{i=1}^{n} (w\_i x\_i) + b)$$
+    $$y = f(\sum_{i=1}^{n} (w_i x_i) + b)$$
     
     where:
     
-    1. $x\_i$ are the `inputs` (features).
+    1. $x_i$ are the `inputs` (features).
         
-    2. $w\_i$ are the `weights` (which signify importance).
+    2. $w_i$ are the `weights` (which signify importance).
         
     3. $b$ is the `bias`.
         
@@ -266,7 +267,7 @@ This is the standard process for building and using an ML model.
         
     3. A "backward pass" goes back through the network, "propagating" the error and slightly adjusting the `weights` ($w_i$) and `bias` ($b$) to reduce the error. For a simple Perceptron, the update rule is:
         
-        - $w\_i = w\_i + \eta(y - \hat{y})x\_i$  
+        - $w_i = w_i + \eta(y - \hat{y})x_i$  
             
         - $b = b + \eta(y - \hat{y})$
             
@@ -355,7 +356,7 @@ How you "grade" your model. The metric you choose is critical.
 
 #### For Regression Models:
 
-- **Mean Squared Error (MSE):** $\frac{1}{n} \sum_{i=1}^{n} (y\_i - \hat{y}\_i)^2$  
+- **Mean Squared Error (MSE):** $\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$  
     
     - Measures the average squared difference between the predicted ($\hat{y}$) and actual ($y$) values.
         
@@ -367,7 +368,7 @@ How you "grade" your model. The metric you choose is critical.
         
     - _Lower is better._
         
-- **Mean Absolute Error (MAE):** $\frac{1}{n} \sum_{i=1}^{n} |y\_i - \hat{y}\_i|$  
+- **Mean Absolute Error (MAE):** $\frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$  
     
     - Measures the average absolute difference. Less sensitive to large outliers than MSE.
         

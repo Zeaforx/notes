@@ -41,14 +41,14 @@ Russell and Norvig (2010) further categorized AI into four dimensions based on w
 
 While both are software, their underlying philosophy and structure are fundamentally different. Here’s a more detailed breakdown:
 
-|   |   |   |
-|---|---|---|
-|**Feature**|**Conventional Program**|**AI Program**|
-|**Core Logic**|Follows a pre-defined, deterministic set of instructions (an algorithm).|Uses heuristics, search, and learning to find a solution. The exact path isn't always pre-determined.|
-|**Knowledge Representation**|Knowledge is "baked into" the code (e.g., in `if-else` statements). It is implicit and hard to change.|Knowledge is explicitly stored in a separate knowledge base (like a set of rules or a trained model's weights).|
-|**Data Handling**|Primarily processes structured, numerical data with predictable formats.|Designed to interpret and process unstructured data (text, images, speech) and symbols.|
-|**Adaptability & Learning**|Does not learn from experience. Its behavior is fixed unless a programmer manually changes the code.|Can learn from new data and adapt its behavior over time, improving its performance without being reprogrammed.|
-|**Modification**|Changing logic requires rewriting and recompiling the core program code.|Can often be updated by modifying the knowledge base or retraining the model without changing the core reasoning engine.|
+|                              |                                                                                                        |                                                                                                                          |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| **Feature**                  | **Conventional Program**                                                                               | **AI Program**                                                                                                           |
+| **Core Logic**               | Follows a pre-defined, deterministic set of instructions (an algorithm).                               | Uses heuristics, search, and learning to find a solution. The exact path isn't always pre-determined.                    |
+| **Knowledge Representation** | Knowledge is "baked into" the code (e.g., in `if-else` statements). It is implicit and hard to change. | Knowledge is explicitly stored in a separate knowledge base (like a set of rules or a trained model's weights).          |
+| **Data Handling**            | Primarily processes structured, numerical data with predictable formats.                               | Designed to interpret and process unstructured data (text, images, speech) and symbols.                                  |
+| **Adaptability & Learning**  | Does not learn from experience. Its behavior is fixed unless a programmer manually changes the code.   | Can learn from new data and adapt its behavior over time, improving its performance without being reprogrammed.          |
+| **Modification**             | Changing logic requires rewriting and recompiling the core program code.                               | Can often be updated by modifying the knowledge base or retraining the model without changing the core reasoning engine. |
 
 ### 1.4 The Main Tasks of AI
 

@@ -1,4 +1,4 @@
-# Course Notes: Chapter 3 - Describing Syntax and Semantics
+ Course Notes: Chapter 3 - Describing Syntax and Semantics
 
 ## 1. Introduction
 
