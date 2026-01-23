@@ -50,27 +50,17 @@
             }
           },
           {
-            "id": "dcabc0a1ada1e9fe",
+            "id": "156cc8c1274e35b1",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "CSC 441 - HUMAN COMPUTER INTERACTION/_TOC_.md",
-                "bFile": "CSC 441 - HUMAN COMPUTER INTERACTION/_TOC_.md",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: _TOC_"
-            }
-          },
-          {
-            "id": "156cc8c1274e35b1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -232,8 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dcabc0a1ada1e9fe",
+  "active": "156cc8c1274e35b1",
   "lastOpenFiles": [
+    "CSC 417 - RESEARCH METHODOLOGY/Potential Questions.md",
+    "CSC 417 - RESEARCH METHODOLOGY/Past Questions.md",
     "assets/Pasted image 20260114145800 1.png",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 3.md",
     "~$ assignments.docx",
@@ -271,7 +263,6 @@
     "CSC 423 - COMPUTER NETWORKS/_TOC_.md",
     "CSC 403 - SOFTWARE ENGINEERING/_TOC_.md",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/_TOC_.md",
-    "CSC 417 - RESEARCH METHODOLOGY/Past Questions.md",
     "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
     "CSC 403 - SOFTWARE ENGINEERING/Past Questions.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md",
