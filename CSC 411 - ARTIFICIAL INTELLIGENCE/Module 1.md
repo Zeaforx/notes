@@ -279,9 +279,29 @@ Logic provides the rules for reasoning, which is fundamental to AI.
 
 ### 5.2 Key Philosophical and Ethical Issues
 
-- **The Turing Test:** A test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human.
+- **1. The Turing Test (1950)**
+
+	Proposed by Alan Turing in his paper "Computing Machinery and Intelligence," this is a practical, behavioral test for machine intelligence.
+	
+	- **The Concept:** Known originally as the "Imitation Game," the test involves three participants: a human judge, another human, and a machine.
+	    
+	- **The Setup:** The judge interacts with both participants via text-only chat. They don't know which is which.
+	    
+	- **The Goal:** If the machine can fool the judge into thinking it is the human at least as often as a real human does, it is said to have "passed" the test.
+	    
+	- **The Philosophy:** Turing argued that we should stop asking "Can machines think?" (because "think" is too vaguely defined) and instead ask if a machine can act indistinguishably from a thinking entity.
     
-- **The Chinese Room Argument:** A thought experiment by John Searle arguing that even if a machine passes the Turing Test, it doesn't mean it _understands_; it's just manipulating symbols. This questions whether AI can ever truly "think."
+- **The Chinese Room Argument (1980)**
+
+	Proposed by philosopher John Searle, this thought experiment was designed specifically to challenge the Turing Test and the idea of "Strong AI" (the belief that a correctly programmed computer literally has a mind).
+	
+	- **The Setup:** Imagine a person who speaks only English locked in a room. They have a massive rulebook (in English) that tells them exactly how to respond to Chinese characters.
+	    
+	- **The Process:** 1. Someone outside slides a slip of paper with Chinese characters into the room. 2. The person inside follows the rules: "If you see character X, write down character Y." 3. They slide the response back out.
+	    
+	- **The Result:** To the person outside, it looks like the person in the room is a fluent Chinese speaker. They have "passed the Turing Test" for Chinese.
+	    
+	- **Searle’s Point:** The person inside the room **does not understand a word of Chinese**. They are simply following a program. Searle argues that computers are exactly like this person: they manipulate symbols (**syntax**) without ever understanding the meaning (**semantics**).
     
 - **Algorithmic Bias:** AI models trained on biased data will produce biased results, reinforcing societal stereotypes (e.g., in hiring or loan applications).
     

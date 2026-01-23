@@ -55,12 +55,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
+                "aFile": "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 1.md",
+                "bFile": "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 1.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json"
+              "title": "Diff: Module 1"
             }
           }
         ],
@@ -224,6 +224,7 @@
   },
   "active": "156cc8c1274e35b1",
   "lastOpenFiles": [
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 1.md",
     "CSC 417 - RESEARCH METHODOLOGY/Potential Questions.md",
     "CSC 417 - RESEARCH METHODOLOGY/Past Questions.md",
     "assets/Pasted image 20260114145800 1.png",
@@ -256,7 +257,6 @@
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 4.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 3.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 2.md",
-    "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 1.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Potential Questions.md",
     "CSC 423 - COMPUTER NETWORKS/WEEK 5.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/_TOC_.md",
