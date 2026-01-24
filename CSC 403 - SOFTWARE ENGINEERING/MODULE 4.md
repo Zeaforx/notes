@@ -122,7 +122,7 @@ Software is often organized into "tiers" or layers to separate concerns.
     
 - **Context:** Typical for standalone desktop applications.
     
-- **Visual Structure:** [Frontend + Processing + Backend] inside one box.
+- **Visual Structure:** [Frontend + Processing + Backend] inside one box.![[Pasted image 20260124140546.png]]
     
 - **Real-World Example:** Microsoft Word (installed on your PC). It saves files to your hard drive and processes text on your CPU without needing the internet.
     
@@ -136,6 +136,7 @@ Software is often organized into "tiers" or layers to separate concerns.
     - **Client Side:** Handles the Presentation (UI) and the Application Logic (Processing).
         
     - **Server Side:** Handles the Database (Backend).
+	    ![[Pasted image 20260124140609.png]]
         
 - **Real-World Example:** A legacy travel agency app installed on an agent's computer (Client) that connects directly to a central database of flights (Server) in the office basement.
     
@@ -151,6 +152,7 @@ Software is often organized into "tiers" or layers to separate concerns.
     2. **Processing Layer (Business Logic/Intelligence):** Where calculations and decisions happen. _Tools: ASP.NET, PHP, Java._
         
     3. **Data Layer (Backend/Database):** Where data is stored. _Tools: Oracle, MS Access, MySQL, SQL Server._
+	    ![[Pasted image 20260124140653.png]]
         
 - **Key Advantage:** You can change the code in one layer without breaking the others.
     
@@ -178,6 +180,7 @@ Software is often organized into "tiers" or layers to separate concerns.
     4. **Persistent Layer:** Connects the app to the database (handles files).
         
     5. **Database Layer:** Stores the raw data.
+	    ![[Pasted image 20260124140717.png]]
         
 
 ### 2.3 Programming Languages & Tools
@@ -398,7 +401,7 @@ The most commonly used diagram. It shows the system's static structure.
 
 	![[Pasted image 20260107113712.png]]
     
-
+![[Pasted image 20260124142944.png]]
 ### 7.2 Use Case Diagram (Behavioral)
 
 Describes how the system is used by authorized users.

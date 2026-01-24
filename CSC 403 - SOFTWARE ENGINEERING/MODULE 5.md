@@ -100,13 +100,16 @@ Reusable components should be **Standardised, Independent, Composable, Deployabl
 - **Provides Interface**: Defines the services that the component offers to other parts of the system.
     
 - **Requires Interface**: Defines what the component needs from its environment to function.
+	![[Pasted image 20260124141941.png]]
     
 - **Real-World Example (Data Collector)**:
     
     - A **Data Collector** component _provides_ services such as "add sensor," "start sensor," and "report."
         
     - However, it _requires_ a "Sensor Management" interface to be present in the system to actually talk to the hardware.
-        
+
+		
+		![[Pasted image 20260124141949.png]]
 
 ### Types of Components
 
@@ -135,6 +138,7 @@ A linear, sequential flow: Planning → Analysis → Design → Implementation �
 - **Importance**: Requirements are frozen early, which minimizes "scope creep" (uncontrolled changes).
     
 - **Analogy**: Like **building a bridge**. You cannot decide to move the bridge's location once the concrete pillars are poured; everything must be perfect in the design phase before construction starts.
+	![[Pasted image 20260124142105.png]]
     
 
 ### Prototype
@@ -144,6 +148,7 @@ This technique performs analysis, design, and implementation concurrently and re
 - **Importance**: It provides a fast-paced environment where users can see and test a "working model" early on.
     
 - **Scenario**: A developer creates a "clickable" but non-functional version of a mobile app to show a client. The client gives feedback, and the developer changes the layout immediately—this is **prototyping**.
+	![[Pasted image 20260124142128.png]]
     
 
 ### Parallel Development Technique
@@ -153,6 +158,7 @@ The project is divided into subprojects that are designed and implemented at the
 - **Importance**: It significantly shortens the time between the start of the project and the final delivery.
     
 - **Analogy**: Like **cooking a big holiday meal**. One person mashes the potatoes while another roasts the turkey. They both finish their "subprojects" simultaneously to serve the full "System" (dinner) much faster.
+	![[Pasted image 20260124142224.png]]
     
 
 ## V. Software Testing
