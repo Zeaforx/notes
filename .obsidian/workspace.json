@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
+                "file": "CSC 421 - NET-CENTRIC COMPUTING/Building Web Apps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MODULE 4"
+              "title": "Building Web Apps"
             }
           }
         ],
@@ -224,21 +224,24 @@
   },
   "active": "156cc8c1274e35b1",
   "lastOpenFiles": [
+    "CSC 421 - NET-CENTRIC COMPUTING/Parallel Computing.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/Building Web Apps.md",
+    "Pasted image 20260125134609.png",
+    "CSC 421 - NET-CENTRIC COMPUTING/Mobile and Wireless Computing.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/Intro to Net Centric Computing.md",
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
     "Pasted image 20260124142944.png",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 4.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 5.md",
     "Pasted image 20260124142733.png",
     "Pasted image 20260124142746.png",
     "Pasted image 20260124140609.png",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
     "Pasted image 20260124142519.png",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 5.md",
     "Pasted image 20260124142224.png",
     "Pasted image 20260124142128.png",
     "Pasted image 20260124142105.png",
     "Pasted image 20260124141949.png",
-    "Pasted image 20260124141941.png",
-    "Pasted image 20260124140717.png",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 2.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 1.md",
@@ -266,9 +269,6 @@
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Potential Questions.md",
     "CSC 423 - COMPUTER NETWORKS/WEEK 5.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/_TOC_.md",
-    "CSC 423 - COMPUTER NETWORKS/_TOC_.md",
-    "CSC 403 - SOFTWARE ENGINEERING/_TOC_.md",
-    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/_TOC_.md",
-    "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md"
+    "CSC 423 - COMPUTER NETWORKS/_TOC_.md"
   ]
 }

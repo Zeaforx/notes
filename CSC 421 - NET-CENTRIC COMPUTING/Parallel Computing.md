@@ -139,7 +139,8 @@ This creates a 2x2 matrix with four categories.
         - **Communication:** Processors communicate by explicitly sending messages to each other over an interconnection network.
             
         - **`[Real-World Example]`**: **Computer Clusters and Supercomputers**. A "Beowulf cluster" or a massive data center (like Google's) is a message-passing MIMD system. Each server ("node") is an independent computer. They solve large problems by breaking them apart and sending messages (data) to each other over the network.
-            
+
+![[Pasted image 20260125134609.png]]
 
 ## 3.0 Relevance & Summary: SIMD vs. MIMD
 
