@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI.md",
+                "file": "CSC 421 - NET-CENTRIC COMPUTING/Past Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI"
+              "title": "Past Questions"
             }
           },
           {
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSC 421 - NET-CENTRIC COMPUTING/Building Web Apps.md",
+                "file": "CSC 421 - NET-CENTRIC COMPUTING/Intro to Net Centric Computing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Building Web Apps"
+              "title": "Intro to Net Centric Computing"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,7 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 437.5
+    "width": 368.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,13 +222,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "156cc8c1274e35b1",
+  "active": "06dd9bf712e3815d",
   "lastOpenFiles": [
+    "CSC 421 - NET-CENTRIC COMPUTING/Intro to Net Centric Computing.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/Past Questions.md",
     "CSC 421 - NET-CENTRIC COMPUTING/Parallel Computing.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/Client Server Computing.md",
     "CSC 421 - NET-CENTRIC COMPUTING/Building Web Apps.md",
+    "AI.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/_TOC_.md",
     "Pasted image 20260125134609.png",
     "CSC 421 - NET-CENTRIC COMPUTING/Mobile and Wireless Computing.md",
-    "CSC 421 - NET-CENTRIC COMPUTING/Intro to Net Centric Computing.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
     "Pasted image 20260124142944.png",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 4.md",
@@ -262,13 +266,9 @@
     "~WRD0000.tmp",
     "AI assignments.docx",
     "~$AI.docx",
-    "AI.md",
     "AI.html",
     "Creating a package and setup.exe wizard in VB.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 3.md",
-    "CSC 411 - ARTIFICIAL INTELLIGENCE/Potential Questions.md",
-    "CSC 423 - COMPUTER NETWORKS/WEEK 5.md",
-    "CSC 441 - HUMAN COMPUTER INTERACTION/_TOC_.md",
-    "CSC 423 - COMPUTER NETWORKS/_TOC_.md"
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/Potential Questions.md"
   ]
 }
