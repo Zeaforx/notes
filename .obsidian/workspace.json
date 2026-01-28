@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSC 421 - NET-CENTRIC COMPUTING/Past Questions.md",
+                "file": "CSC 411 - ARTIFICIAL INTELLIGENCE/Past Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Past Questions"
+            }
+          },
+          {
+            "id": "0aadf4fc254b8ab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MODULE 4"
             }
           },
           {
@@ -96,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "expected",
+                "query": "n-tier",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -224,16 +238,19 @@
   },
   "active": "06dd9bf712e3815d",
   "lastOpenFiles": [
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/Review Questions.md",
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/Past Questions.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/Building Web Apps.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/Parallel Computing.md",
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
+    "AI assignments.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/Mobile and Wireless Computing.md",
+    "CSC 421 - NET-CENTRIC COMPUTING/Client Server Computing.md",
     "CSC 421 - NET-CENTRIC COMPUTING/Intro to Net Centric Computing.md",
     "CSC 421 - NET-CENTRIC COMPUTING/Past Questions.md",
-    "CSC 421 - NET-CENTRIC COMPUTING/Parallel Computing.md",
-    "CSC 421 - NET-CENTRIC COMPUTING/Client Server Computing.md",
-    "CSC 421 - NET-CENTRIC COMPUTING/Building Web Apps.md",
     "AI.md",
     "CSC 421 - NET-CENTRIC COMPUTING/_TOC_.md",
     "Pasted image 20260125134609.png",
-    "CSC 421 - NET-CENTRIC COMPUTING/Mobile and Wireless Computing.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
     "Pasted image 20260124142944.png",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 4.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 5.md",
@@ -257,7 +274,6 @@
     "~$ assignments.docx",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 2.md",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 1.md",
-    "AI assignments.md",
     "~WRL0005.tmp",
     "~WRD0004.tmp",
     "~WRL0003.tmp",
@@ -267,8 +283,6 @@
     "AI assignments.docx",
     "~$AI.docx",
     "AI.html",
-    "Creating a package and setup.exe wizard in VB.md",
-    "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 3.md",
-    "CSC 411 - ARTIFICIAL INTELLIGENCE/Potential Questions.md"
+    "Creating a package and setup.exe wizard in VB.md"
   ]
 }

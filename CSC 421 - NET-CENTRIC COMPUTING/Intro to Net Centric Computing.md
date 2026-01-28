@@ -99,7 +99,7 @@ Architecture refers to how the computers are arranged and how they talk to each 
 - _Why use it?_ If you need to change the database, you don't have to update everyone's computer (client), just the middle tier.
     
 
-**c. n-tier**
+**%% c %%. n-tier**
 
 - **How it works:** Similar to Three-tier, but with even more layers. The server forwards requests to other enterprise services.
     
