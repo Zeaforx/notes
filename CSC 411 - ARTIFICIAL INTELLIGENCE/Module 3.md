@@ -188,7 +188,62 @@ Truth tables are used to show the value of a complex sentence for all possible c
         - **Rule:** `(P ∨ Q), (¬P ∨ R) ⊢ (Q ∨ R)`
             
         - **Explanation:** This is a powerful rule used by many automated theorem provers. It says: "We know `P` or `Q` is true, and we also know `(not P)` or `R` is true. Since `P` must be either true or false, one of `Q` or `R` _must_ be true."
-            
+		     
+	4. **Hypothetical Syllogism (Transitivity):**
+	    
+	    - **Rule:** If we have (P→Q) and (Q→R), we can infer (P→R).
+	        
+	    - **Example:**
+	        
+	        1. KB has: "If you are a human (P), then you are mortal (Q)."
+	            
+	        2. KB has: "If you are mortal (Q), then you will eventually die (R)."
+	            
+	        3. **Inference:** "If you are a human (P), then you will eventually die (R)."
+	            
+	5. **Disjunctive Syllogism:**
+	    
+	    - **Rule:** If we have (P∨Q) and ¬P, we can infer Q.
+	        
+	    - **Example:**
+	        
+	        1. KB has: "The light is either on (P) or off (Q)."
+	            
+	        2. KB learns: "The light is **not** on (¬P)."
+	            
+	        3. **Inference:** "The light is off (Q)."
+	            
+	6. **Addition (Generalization):**
+	    
+	    - **Rule:** If we have P, we can infer (P∨Q).
+	        
+	    - **Example:**
+	        
+	        1. KB learns: "It is Friday (P)."
+	            
+	        2. **Inference:** "It is Friday or the moon is made of cheese (P∨Q)." (Note: This is always logically true if P is true, regardless of what Q is).
+	            
+	7. **Simplification:**
+	    
+	    - **Rule:** If we have (P∧Q), we can infer P (or we can infer Q).
+	        
+	    - **Example:**
+	        
+	        1. KB has: "The server is running (P) and the database is connected (Q)."
+	            
+	        2. **Inference:** "The server is running (P)."
+	            
+	8. **Conjunction:**
+	    
+	    - **Rule:** If we have P and we have Q, we can infer (P∧Q).
+	        
+	    - **Example:**
+	        
+	        1. KB learns: "The user is logged in (P)."
+	            
+	        2. KB learns: "The user has admin rights (Q)."
+	            
+	        3. **Inference:** "The user is logged in and has admin rights (P∧Q)."
 
 #### 2.4 Limitations of Propositional Logic
 

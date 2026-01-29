@@ -158,7 +158,7 @@ A simplified representation used in NLP. It represents text as a "bag" (multiset
 - **Bag of Words** only counts frequency. It treats common words like "the" as very important because they appear often.
     
 - **TF-IDF** balances this. It gives high weight to words that appear often in a specific document but rarely across the whole corpus. This helps identify the _unique_ and _relevant_ topics of a specific document.
-    
+	
 
 ### 18. Types of Bias
 
@@ -167,6 +167,136 @@ A simplified representation used in NLP. It represents text as a "bag" (multiset
 - **Representation Bias:** Occurs when the training dataset does not well represent the population it is meant to serve (e.g., a face recognition dataset containing mostly light-skinned faces).
     
 - **Algorithmic Bias:** Bias introduced by the algorithm itself or its optimization objective, often amplifying existing biases in the data.
+	 
+- **Data Bias:** The most common source. If the training data contains historical prejudices or lacks representation of certain groups, the AI will learn and replicate those patterns.
     
+- **Algorithmic Bias:** Occurs when the mathematical model itself or its optimization goals inadvertently prioritize one outcome over another, even if the data is balanced.
+    
+- **Human/Cognitive Bias:** Developers and data scientists may unconsciously project their own life experiences and perspectives into how they define a "successful" outcome or choose which data points are important.
+	 
 
 **Differences:** Historical is about the _state of the world_, Representation is about _how we collect data_, and Algorithmic is about _how the model processes it_.
+
+### 19. AI Bias: Definition, Types, and Impact
+
+Bias in Artificial Intelligence (AI) refers to the phenomenon where a machine learning model produces results that are systematically prejudiced. These biases often reflect existing human prejudices or flaws in the data collection process, leading to "unfair" decisions that can marginalize specific demographics based on race, gender, age, or socioeconomic status.
+
+### 20. The Bag of Words (BoW) Approach
+
+BoW simply counts how many times each word appears. It creates a "frequency vector."
+
+### Results for Doc 1:
+
+|Word|Count|Importance (BoW)|
+|---|---|---|
+|**a**|2|**High**|
+|**space**|2|**High**|
+|explorer|1|Medium|
+|travels|1|Medium|
+|to|1|Medium|
+|distant|1|Medium|
+|planet|1|Medium|
+|in|1|Medium|
+
+**The Flaw:** In BoW, the word "**a**" is considered just as important as "**space**" because they both appear twice. The word "**travels**" is considered less important than "**a**."
+
+#### 2. The TF-IDF Approach
+
+TF-IDF applies a penalty to words that appear in many documents (Inverse Document Frequency).
+
+### Calculation Logic:
+
+1. **Term Frequency (TF):** How often is the word in _this_ document?
+    
+2. **Inverse Document Frequency (IDF):** How many documents in the _whole collection_ contain this word? If it's in every document, the weight drops to near zero.
+    
+
+### Results for Doc 1 (TF-IDF Weighted):
+
+|Word|Frequency|Distribution|TF-IDF Score (Importance)|
+|---|---|---|---|
+|**a**|High|In all 3 docs|**Very Low** (Common filler)|
+|**space**|High|In 2 of 3 docs|**Medium** (Topic indicator)|
+|**explorer**|Medium|Only in 1 doc|**Very High** (Unique identifier)|
+|**planet**|Medium|Only in 1 doc|**Very High** (Unique identifier)|
+To illustrate the difference, let's assume we have a **Corpus** (collection) of three movie descriptions:
+
+- **Doc 1:** "A space explorer travels to a distant planet in space."
+    
+- **Doc 2:** "A space station orbit is maintained by a space crew."
+    
+- **Doc 3:** "A romantic story about a chef in a small town."
+	 
+ - Comparison of Outcomes
+
+	### Case A: The "Stop Word" Problem
+	
+	- **BoW:** Words like "the," "is," "a," and "of" usually have the highest scores. If you use BoW to find "similar" documents, a document about **cooking** and a document about **quantum physics** might look similar just because they both use the word "the" 50 times.
+	    
+	- **TF-IDF:** Automatically "muffles" these words. Because "the" appears in almost every document in the English language, its IDF score is nearly 0, effectively removing it from the calculation.
+	    
+	
+	### Case B: Finding the "Essence"
+	
+	- **BoW:** If you have a 1,000-page book on **Biology**, the word "Biology" might appear 100 times, but the word "and" might appear 5,000 times. BoW thinks the book is about "and."
+	    
+	- **TF-IDF:** Recognizes that while "and" is frequent, it's frequent _everywhere_. However, the word "Biology" is frequent in _this_ book but rare in a collection of Cookbooks or History books. Therefore, "Biology" gets the highest score.
+	    
+	
+	### Case C: Search Engines
+	
+	- **BoW:** If you search for "Space Explorer," BoW might show you any page that uses the word "the" or "a" frequently.
+	    
+	- **TF-IDF:** Will prioritize pages where "Space" and "Explorer" appear often _relative_ to how often they appear on the rest of the internet. This is why you get relevant results instead of just common English pages. 
+
+### 21. How to choose a K in K-means Clustering
+#### 1. The Elbow Method
+
+This is the most common visual technique. It measures the **Within-Cluster Sum of Squares (WCSS)**, also known as **Inertia**.
+
+- **How it works:** You run K-means for a range of values (e.g., k=1 to 10). For each k, you calculate the WCSS (the sum of squared distances between each point and its assigned center).
+    
+    +1
+    
+- **The "Elbow":** As k increases, WCSS naturally drops because clusters get smaller. You look for the point where the rate of decrease shifts from "sharp" to "shallow." This "bend" in the graph is the elbow.
+    
+    +1
+    
+
+---
+
+#### 2. The Silhouette Method
+
+While the Elbow method focuses on how tight clusters are, the Silhouette method looks at how well-separated they are.
+
+- **The Silhouette Score:** It measures how similar an object is to its own cluster compared to other clusters. The score ranges from −1 to +1.
+    
+    +1
+    
+    - **Near +1:** The point is far away from neighboring clusters (good).
+        
+    - **Near 0:** The point is on or very close to the decision boundary between two clusters.
+        
+    - **Negative:** The point might have been assigned to the wrong cluster.
+        
+- **Choosing k:** You pick the k that yields the highest average silhouette score across all data points.
+	
+	
+- The Formula
+	
+	For a single data point $i$, the silhouette score $s(i)$ is calculated as:
+	
+	$$s(i) = \frac{b(i) - a(i)}{\max\{a(i), b(i)\}}$$
+
+- Breaking Down the Components
+
+	To understand the result, we have to look at the two distances that make up the numerator:
+	
+	1. **$a(i)$ (Mean Intra-cluster Distance):** This is the average distance between point $i$ and all other points in the **same** cluster.
+	    
+	    - _Goal:_ You want this to be **small**, indicating that the point is very similar to its cluster-mates.
+	        
+	2. **$b(i)$ (Mean Nearest-cluster Distance):** This is the average distance between point $i$ and all points in the **nearest neighboring** cluster (the one it isn't part of, but is closest to).
+	    
+	    - _Goal:_ You want this to be **large**, indicating that the point is very different from points in other groups.
+	        
