@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSC 411 - ARTIFICIAL INTELLIGENCE/Review Questions.md",
+                "file": "CSC 403 - SOFTWARE ENGINEERING/Review Questions.md",
                 "mode": "source",
                 "source": false
               },
@@ -234,11 +234,14 @@
   },
   "active": "dcabc0a1ada1e9fe",
   "lastOpenFiles": [
+    "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
+    "CSC 403 - SOFTWARE ENGINEERING/Review Questions.md",
+    "CSC 403 - SOFTWARE ENGINEERING/Past Questions.md",
+    "CSC 411 - ARTIFICIAL INTELLIGENCE/Review Questions.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 4.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 3.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 1.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 2.md",
-    "CSC 411 - ARTIFICIAL INTELLIGENCE/Review Questions.md",
     "AI.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Past Questions.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 5.md",
@@ -276,9 +279,6 @@
     "CSC 403 - SOFTWARE ENGINEERING/_TOC_.md",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/_TOC_.md",
     "CSC 417 - RESEARCH METHODOLOGY/Past Questions.md",
-    "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
-    "CSC 403 - SOFTWARE ENGINEERING/Past Questions.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 2.md"
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md"
   ]
 }
