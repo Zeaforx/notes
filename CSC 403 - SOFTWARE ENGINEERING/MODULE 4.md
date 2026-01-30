@@ -72,7 +72,9 @@ The notes reference a **Packing Robot Control System**. This architecture demons
 - **Conveyor Controller:** Moves the belt to position the items.
     
 - **Packing System:** Coordinates where the item is placed.
-    
+	 
+	![[Pasted image 20260130103600.png]]
+	
 
 **Concept Note:** A practical way to achieve non-functional requirements (like Security) is through functional requirements. _Example: To ensure the "Security" of the robot, we implement a "Login Module" (functional feature) so only authorized staff can operate it._
 

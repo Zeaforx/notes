@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSC 403 - SOFTWARE ENGINEERING/Review Questions.md",
+                "file": "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Review Questions"
+              "title": "MODULE 3"
             }
           },
           {
@@ -106,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "expected",
+                "query": "controller",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -234,8 +234,12 @@
   },
   "active": "dcabc0a1ada1e9fe",
   "lastOpenFiles": [
-    "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
+    "Pasted image 20260130103600.png",
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md",
+    "CSC 403 - SOFTWARE ENGINEERING/MODULE 2.md",
     "CSC 403 - SOFTWARE ENGINEERING/Review Questions.md",
+    "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
     "CSC 403 - SOFTWARE ENGINEERING/Past Questions.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Review Questions.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 4.md",
@@ -256,7 +260,6 @@
     "Pasted image 20260124142128.png",
     "Pasted image 20260124142105.png",
     "Pasted image 20260124141949.png",
-    "assets/Pasted image 20260114145800 1.png",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 3.md",
     "~$ assignments.docx",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 2.md",
@@ -276,9 +279,6 @@
     "CSC 423 - COMPUTER NETWORKS/WEEK 5.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/_TOC_.md",
     "CSC 423 - COMPUTER NETWORKS/_TOC_.md",
-    "CSC 403 - SOFTWARE ENGINEERING/_TOC_.md",
-    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/_TOC_.md",
-    "CSC 417 - RESEARCH METHODOLOGY/Past Questions.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md"
+    "CSC 403 - SOFTWARE ENGINEERING/_TOC_.md"
   ]
 }
