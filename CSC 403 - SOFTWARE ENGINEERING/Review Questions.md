@@ -521,3 +521,42 @@ Embedded deployment (IoT) involves putting code onto hardware chips (Microcontro
     - It downloads the new code to a temporary memory slot, verifies it, and then reboots into the new version.
         
 - **Key Risk:** If embedded deployment fails (e.g., power cuts during update), the device can become "bricked" (permanently broken).
+
+# 7. Difference between package and program
+In Visual Basic 6, the difference between an **Application Program** and an **Application Package** is the difference between the "app itself" and the "installer kit" needed to put that app on another computer.
+
+Here is the breakdown of the differences.
+
+### 1. The Definitions
+
+- **Application Program (The Executable)** This is the actual software you built. In VB6, this is the single `.exe` file (e.g., `Calculator.exe`) created when you click **File > Make...**. It contains your compiled code and forms.
+    
+- **Application Package (The Installer)** This is a collection of files bundled together to help users install your program. In VB6, this is created by the **Package & Deployment Wizard**. It includes your `.exe`, but also adds the installer (`setup.exe`) and all the hidden system files your app needs to run.
+    
+
+### 2. Detailed Comparison
+
+|Feature|Application Program|Application Package|
+|---|---|---|
+|**Main File**|Just the `.exe` file.|A folder containing `Setup.exe`, `Setup.lst`, and `.CAB` files.|
+|**Purpose**|To **run** the specific task (e.g., calculate numbers).|To **install** the software onto a computer.|
+|**Dependencies**|Does **not** include the required DLLs or OCXs inside it.|**Includes** all necessary DLLs, OCXs, and VB6 Runtimes.|
+|**Portability**|Usually **fails** if copied to a new computer (missing DLL errors).|**Works** on new computers because it installs what is missing.|
+|**How to Create**|VB6 Menu: **File > Make Project.exe**|Add-In: **Package & Deployment Wizard**|
+
+Export to Sheets
+
+### 3. Why the "Package" is Necessary (The DLL Issue)
+
+New VB6 developers often make the mistake of just copying the **Application Program** (`Project1.exe`) to a friend's computer.
+
+- **The Problem:** When the friend tries to run it, they get an error: _"Component 'MSCOMCTL.OCX' or one of its dependencies not correctly registered."_ This happens because VB6 apps are not standalone; they rely on system files that might be missing on the friend's PC.
+    
+- **The Solution:** The **Application Package** solves this. The `setup.exe` inside the package checks the friend's computer for missing files, installs them, registers them, and _then_ copies your program.
+    
+
+### Summary
+
+- **Application Program:** The engine (The code you wrote).
+    
+- **Application Package:** The shipping container (The engine + the tools needed to install it)
