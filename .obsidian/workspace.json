@@ -76,17 +76,31 @@
             }
           },
           {
+            "id": "d826b2e26b116b76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSC 423 - COMPUTER NETWORKS/CHAPTER 2 QUESTIONS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CHAPTER 2 QUESTIONS"
+            }
+          },
+          {
             "id": "dcabc0a1ada1e9fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSC 403 - SOFTWARE ENGINEERING/Review Questions.md",
+                "file": "CSC 423 - COMPUTER NETWORKS/CHAPTER 2 QUESTIONS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Review Questions"
+              "title": "CHAPTER 2 QUESTIONS"
             }
           },
           {
@@ -100,27 +114,7 @@
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "da5abdb3639bd517",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d826b2e26b116b76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSC 403 - SOFTWARE ENGINEERING/Review Questions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Review Questions"
-            }
-          }
-        ]
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -278,13 +272,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d826b2e26b116b76",
+  "active": "dcabc0a1ada1e9fe",
   "lastOpenFiles": [
     "CSC 403 - SOFTWARE ENGINEERING/Review Questions.md",
+    "Pasted image 20260201213801.png",
+    "CSC 423 - COMPUTER NETWORKS/CHAPTER 2 QUESTIONS.md",
+    "CSC 423 - COMPUTER NETWORKS/CHAPTER 2.md",
+    "Pasted image 20260201222533.png",
+    "CSC 423 - COMPUTER NETWORKS/WEEK 2.md",
+    "CSC 423 - COMPUTER NETWORKS/CHAPTER 1.md",
+    "Pasted image 20260201221846.png",
+    "Pasted image 20260201221811.png",
+    "Pasted image 20260201221443.png",
+    "Pasted image 20260201221428.png",
+    "Pasted image 20260201221201.png",
+    "Pasted image 20260201220853.png",
+    "CSC 423 - COMPUTER NETWORKS/Chapter 1 Review Questions.md",
+    "Pasted image 20260201214553.png",
+    "Pasted image 20260201214402.png",
     "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
-    "Pasted image 20260130103600.png",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 2.md",
     "CSC 403 - SOFTWARE ENGINEERING/Past Questions.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Review Questions.md",
@@ -297,15 +305,6 @@
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 5.md",
     "CSC 421 - NET-CENTRIC COMPUTING/Intro to Net Centric Computing.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 1.md",
-    "Pasted image 20260125134609.png",
-    "Pasted image 20260124142944.png",
-    "Pasted image 20260124142746.png",
-    "Pasted image 20260124142733.png",
-    "Pasted image 20260124142519.png",
-    "Pasted image 20260124142224.png",
-    "Pasted image 20260124142128.png",
-    "Pasted image 20260124142105.png",
-    "Pasted image 20260124141949.png",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 3.md",
     "~$ assignments.docx",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 2.md",
@@ -319,12 +318,6 @@
     "~WRD0000.tmp",
     "AI assignments.docx",
     "~$AI.docx",
-    "AI.html",
-    "Creating a package and setup.exe wizard in VB.md",
-    "CSC 411 - ARTIFICIAL INTELLIGENCE/Potential Questions.md",
-    "CSC 423 - COMPUTER NETWORKS/WEEK 5.md",
-    "CSC 441 - HUMAN COMPUTER INTERACTION/_TOC_.md",
-    "CSC 423 - COMPUTER NETWORKS/_TOC_.md",
-    "CSC 403 - SOFTWARE ENGINEERING/_TOC_.md"
+    "AI.html"
   ]
 }
