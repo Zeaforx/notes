@@ -107,12 +107,14 @@
             "id": "628acefadd624354",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260202102006.png"
+                "file": "CSC 423 - COMPUTER NETWORKS/CHAPTER 4 QUESTIONS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260202102006"
+              "icon": "lucide-file",
+              "title": "CHAPTER 4 QUESTIONS"
             }
           },
           {
@@ -126,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -284,8 +286,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dcabc0a1ada1e9fe",
+  "active": "628acefadd624354",
   "lastOpenFiles": [
+    "CSC 423 - COMPUTER NETWORKS/CHAPTER 3 QUESTIONS.md",
+    "CSC 423 - COMPUTER NETWORKS/CHAPTER 4 QUESTIONS.md",
+    "CSC 423 - COMPUTER NETWORKS/CHAPTER 4.md",
+    "Pasted image 20260202102006.png",
+    "CSC 423 - COMPUTER NETWORKS/CHAPTER 3.md",
+    "CSC 423 - COMPUTER NETWORKS/WEEK 2.md",
+    "CSC 423 - COMPUTER NETWORKS/WEEK 5.md",
+    "CSC 423 - COMPUTER NETWORKS/WEEK 4.md",
+    "CSC 423 - COMPUTER NETWORKS/WEEK 3.md",
     "Pasted image 20260202130044.png",
     "Pasted image 20260202125742.png",
     "Pasted image 20260202125717.png",
@@ -295,14 +306,9 @@
     "Pasted image 20260202124538.png",
     "Pasted image 20260202123714.png",
     "Pasted image 20260202123355.png",
-    "Pasted image 20260202123116.png",
-    "Pasted image 20260202122902.png",
-    "CSC 423 - COMPUTER NETWORKS/CHAPTER 3.md",
-    "CSC 423 - COMPUTER NETWORKS/CHAPTER 4.md",
     "CSC 423 - COMPUTER NETWORKS/CHAPTER 2 QUESTIONS.md",
     "CSC 403 - SOFTWARE ENGINEERING/Review Questions.md",
     "CSC 423 - COMPUTER NETWORKS/CHAPTER 2.md",
-    "CSC 423 - COMPUTER NETWORKS/WEEK 2.md",
     "CSC 423 - COMPUTER NETWORKS/CHAPTER 1.md",
     "CSC 423 - COMPUTER NETWORKS/Chapter 1 Review Questions.md",
     "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
@@ -318,11 +324,7 @@
     "AI.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Past Questions.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 5.md",
-    "CSC 421 - NET-CENTRIC COMPUTING/Intro to Net Centric Computing.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 1.md",
-    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 3.md",
     "~$ assignments.docx",
-    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 2.md",
     "~WRL0005.tmp",
     "~WRD0004.tmp",
     "~WRL0003.tmp",
