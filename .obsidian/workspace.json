@@ -137,12 +137,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSC 423 - COMPUTER NETWORKS/notes/CHEAT SHEET.md",
+                "file": "CSC 441 - HUMAN COMPUTER INTERACTION/Self Study Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHEAT SHEET"
+              "title": "Self Study Questions"
             }
           }
         ],
@@ -307,6 +307,7 @@
   "active": "156cc8c1274e35b1",
   "lastOpenFiles": [
     "CSC 423 - COMPUTER NETWORKS/notes/CHEAT SHEET.md",
+    "CSC 441 - HUMAN COMPUTER INTERACTION/Self Study Questions.md",
     "CSC 423 - COMPUTER NETWORKS/notes/CHAPTER 4.md",
     "CSC 423 - COMPUTER NETWORKS/notes/CHAPTER 4 QUESTIONS.md",
     "CSC 423 - COMPUTER NETWORKS/notes/CHAPTER 3.md",
@@ -342,7 +343,6 @@
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 1.md",
     "CSC 411 - ARTIFICIAL INTELLIGENCE/Module 2.md",
     "AI.md",
-    "CSC 411 - ARTIFICIAL INTELLIGENCE/Past Questions.md",
     "~$ assignments.docx",
     "~WRL0005.tmp",
     "~WRD0004.tmp",
