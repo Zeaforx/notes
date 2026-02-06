@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/MODULE 1.md",
+                "file": "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MODULE 1"
+              "title": "WEEK 1"
             }
           }
         ]
@@ -181,8 +181,9 @@
   },
   "active": "156cc8c1274e35b1",
   "lastOpenFiles": [
-    "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 7.md",
     "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/MODULE 1.md",
+    "CSC 401 - ORGANIZATION OF PROGRAMMING LANGUAGES/WEEK 1.md",
+    "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 7.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 6.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 5.md",
     "CSC 441 - HUMAN COMPUTER INTERACTION/WEEK 4.md",
@@ -217,7 +218,6 @@
     "CSC 403 - SOFTWARE ENGINEERING/Potential Questions for Exam.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 3.md",
     "CSC 403 - SOFTWARE ENGINEERING/MODULE 4.md",
-    "CSC 403 - SOFTWARE ENGINEERING/MODULE 2.md",
     "~$ assignments.docx",
     "~WRL0005.tmp",
     "~WRD0004.tmp",
