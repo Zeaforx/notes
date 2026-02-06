@@ -251,13 +251,13 @@ This shows how different interaction styles handle the Gulfs of Execution and Ev
 
 This shows how the **Context of Interaction** changes everything about design.
 
-|   |   |   |
-|---|---|---|
-|**Ergonomic Factor**|**Public Kiosk (Train Station)**|**Standard Office Desktop**|
-|**Users**|**Diverse & Hurried.** All ages, abilities, sizes. Standing, carrying luggage, distracted.|**Single & Stationary.** A trained employee, sitting for a long time in a controlled environment.|
-|**Input Devices**|**Durable & Simple.** Vandal-proof touchscreens, large metal keypads. Must be usable by people with disabilities (e.g., at wheelchair height).|**Comfortable & Adjustable.** Standard keyboard and mouse. Focus is on minimizing long-term RSI risk with wrist rests, etc.|
-|**Display**|**High-Brightness & Anti-Glare.** Must be visible in bright sunlight. Positioned for a _standing_ user to see without neck strain.|**Standard Brightness & Matte.** Focus is on low-blue-light and readability for 8+ hours of use.|
-|**Feedback**|**Loud & Clear.** Must use loud beeps or visual flashes to be noticed over the noise of a train station.|**Subtle & Quiet.** Can rely on small sounds or on-screen notifications that won't disturb coworkers.|
+|                      |                                                                                                                                                |                                                                                                                             |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **Ergonomic Factor** | **Public Kiosk (Train Station)**                                                                                                               | **Standard Office Desktop**                                                                                                 |
+| **Users**            | **Diverse & Hurried.** All ages, abilities, sizes. Standing, carrying luggage, distracted.                                                     | **Single & Stationary.** A trained employee, sitting for a long time in a controlled environment.                           |
+| **Input Devices**    | **Durable & Simple.** Vandal-proof touchscreens, large metal keypads. Must be usable by people with disabilities (e.g., at wheelchair height). | **Comfortable & Adjustable.** Standard keyboard and mouse. Focus is on minimizing long-term RSI risk with wrist rests, etc. |
+| **Display**          | **High-Brightness & Anti-Glare.** Must be visible in bright sunlight. Positioned for a _standing_ user to see without neck strain.             | **Standard Brightness & Matte.** Focus is on low-blue-light and readability for 8+ hours of use.                            |
+| **Feedback**         | **Loud & Clear.** Must use loud beeps or visual flashes to be noticed over the noise of a train station.                                       | **Subtle & Quiet.** Can rely on small sounds or on-screen notifications that won't disturb coworkers.                       |
 
 #### 3. Scenario: Interaction Styles in a Social Media App
 

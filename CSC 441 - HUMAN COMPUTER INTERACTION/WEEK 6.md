@@ -27,7 +27,8 @@ Building every button from scratch is a waste of time. Professionals use tools t
 
 - **What they are:** Collections of pre-made parts (buttons, menus, sliders). Examples: _React, Bootstrap, Material UI._
     
-- Why use them? 1. Speed: You "Lego-build" the UI rather than "sculpting" it from clay.
+- Why use them? 
+	1. Speed: You "Lego-build" the UI rather than "sculpting" it from clay.
     
     2. OS Abstraction: You write code once, and it looks right on both an iPhone and an Android.
     
