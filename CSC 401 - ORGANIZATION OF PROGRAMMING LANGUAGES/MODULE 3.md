@@ -98,12 +98,11 @@ A **derivation** is a sequence of rule applications, starting with a start symbo
     
 
 **Example Derivation (Leftmost):**
+![[Pasted image 20260206151219.png]]
 
-```
-<program> => begin <stmt_list> end
-          => begin <stmt> end
-          => begin A = B + C end
-```
+![[Pasted image 20260206151257.png]]
+![[Pasted image 20260206151435.png]]
+![[Pasted image 20260206151506.png]]
 
 #### 3.3.1.6 Parse Trees
 
@@ -116,7 +115,7 @@ A hierarchical graphical representation of a derivation.
 - **Leaves:** Terminals.
     
 
-<Insert Diagram: Figure 3.1 - A parse tree for A = B * (A + C)>
+![[Pasted image 20260206151527.png]]
 
 #### 3.3.1.7 Ambiguity
 
@@ -127,7 +126,7 @@ A grammar is **ambiguous** if it generates a sentential form that has two or mor
 - **Detection:** If a grammar generates a sentence with two distinct leftmost derivations, it is ambiguous.
     
 
-<Insert Diagram: Figure 3.2 - Two distinct parse trees for A = B + C * A>
+![[Pasted image 20260206151803.png]]
 
 #### 3.3.1.8 Operator Precedence
 
@@ -145,6 +144,13 @@ Precedence determines the order of evaluation (e.g., multiplication before addit
 ```
 
 _Note: `<factor>` is lower than `<term>`, so `*` (in term) is evaluated before `+` (in expr)._
+![[Pasted image 20260206152635.png]]
+![[Pasted image 20260206152649.png]]
+*Left Hand Derivation*
+![[Pasted image 20260206152916.png]]
+*Right Hand Derivation*
+![[Pasted image 20260206153224.png]]
+*Parse Tree*
 
 #### 3.3.1.9 Associativity of Operators
 
@@ -153,7 +159,7 @@ Determines evaluation order for operators of the same precedence (e.g., `A - B -
 - **Left Associativity:** Achieved via **Left Recursion** (e.g., `<expr> -> <expr> + <term>`).
     
 - **Right Associativity:** Achieved via **Right Recursion** (e.g., `<factor> -> <exp> ** <factor>`).
-    
+    ![[Pasted image 20260206154600.png]]
 
 #### 3.3.1.10 An Unambiguous Grammar for if-then-else
 
@@ -162,7 +168,7 @@ The "Dangling Else" problem: `if x then if y then S1 else S2`. Does the `else` b
 - **Standard Rule:** `else` matches the nearest previous unmatched `then`.
     
 - **BNF Solution:** Distinguish between matched and unmatched statements.
-    
+    ![[Pasted image 20260206154924.png]]
 
 ```
 <stmt> -> <matched> | <unmatched>

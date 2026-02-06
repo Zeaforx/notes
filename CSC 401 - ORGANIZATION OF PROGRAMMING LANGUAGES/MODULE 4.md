@@ -173,21 +173,36 @@ int lex() {
     - If `UNKNOWN`: It assumes the character is an operator or delimiter and calls `lookup()` to assign the specific token code.
         
 3. **Output:** It produces a pair: `(Token Code, Lexeme String)`.
+![[Pasted image 20260206161034.png]]
     
 
 ### 4.3 The Parsing Problem
 
-#### 4.3.1 Goals and Categories
+#### 4.3.1 Goals
 
 - **Goal:** Determine if input is syntactically correct and build a Parse Tree.
-    
-- **Categories:**
-    
-    1. **Top-Down:** Builds tree from Root $\rightarrow$ Leaves. Corresponds to a **Leftmost Derivation**.
-        
-    2. **Bottom-Up:** Builds tree from Leaves $\rightarrow$ Root. Corresponds to the reverse of a **Rightmost Derivation**.
-        
+#### 4.3.2 Top-Down Parsers
 
+A top-down parser constructs the parse tree from the root downward to the leaves.
+
+- **Traversal:** It traces or builds the tree in **preorder**.
+    
+- **Derivation:** The process corresponds to a **Leftmost Derivation**.
+    
+- **Logic:** Given a sentential form $xA\alpha$ (where $x$ is terminal symbols and $A$ is the leftmost non-terminal), the parser must choose the correct grammar rule for $A$ (e.g., $A \rightarrow \beta$) to determine the next sentential form.
+    
+- **LL Algorithms:** These parsers scan input Left-to-right and generate a Leftmost derivation. Recursive descent is a common implementation.
+    
+
+#### 4.3.3 Bottom-Up Parsers
+
+A bottom-up parser constructs the parse tree from the leaves upward to the root.
+
+- **Derivation:** The process corresponds to the reverse of a **Rightmost Derivation**.
+    
+- **Logic:** Given a right sentential form, the parser must find the **handle** (the substring that matches the RHS of a grammar rule) and reduce it to the LHS non-terminal to produce the previous sentential form in the derivation.
+    
+- **LR Algorithms:** These parsers scan input Left-to-right and generate a Rightmost derivation in reverse. They are often called Shift-Reduce parsers.
 #### 4.3.4 Complexity of Parsing
 
 |   |   |   |
@@ -204,25 +219,26 @@ Recursive Descent is a direct implementation of an EBNF grammar. Every Non-Termi
 
 **Input:** `(sum + 47) / total` **Grammar:** Standard arithmetic expression (Term/Factor).
 
-|   |   |   |   |
-|---|---|---|---|
-|**Step**|**Current Token**|**Procedure Entry/Exit**|**Logic**|
-|1|`(`|Enter `<expr>`|Start symbol called.|
-|2|`(`|Enter `<term>`|`<expr>` calls `<term>`.|
-|3|`(`|Enter `<factor>`|`<term>` calls `<factor>`.|
-|4|`sum`|Enter `<expr>`|`<factor>` sees `(`, consumes it, recurses to `<expr>`.|
-|5|`sum`|Enter `<term>`|... recurses to `<term>`.|
-|6|`sum`|Enter `<factor>`|... recurses to `<factor>`.|
-|7|`+`|Exit `<factor>`|`<factor>` identifies `sum` (IDENT). Returns.|
-|8|`+`|Exit `<term>`|`<term>` sees `+` (not `*` or `/`). Returns.|
-|9|`47`|Enter `<term>`|`<expr>` sees `+`, calls `<term>` for RHS.|
-|10|`47`|Enter `<factor>`|`<term>` calls `<factor>`.|
-|11|`)`|Exit `<factor>`|`<factor>` identifies `47` (INT_LIT). Returns.|
-|12|`)`|Exit `<term>`|Returns.|
-|13|`/`|Exit `<expr>`|Consumes `)`, returns.|
-|14|`total`|Enter `<factor>`|Processing division RHS.|
-|15|`EOF`|Exit `<factor>`|Identifies `total`.|
-
+|          |                   |                          |                                                         |
+| -------- | ----------------- | ------------------------ | ------------------------------------------------------- |
+| **Step** | **Current Token** | **Procedure Entry/Exit** | **Logic**                                               |
+| 1        | `(`               | Enter `<expr>`           | Start symbol called.                                    |
+| 2        | `(`               | Enter `<term>`           | `<expr>` calls `<term>`.                                |
+| 3        | `(`               | Enter `<factor>`         | `<term>` calls `<factor>`.                              |
+| 4        | `sum`             | Enter `<expr>`           | `<factor>` sees `(`, consumes it, recurses to `<expr>`. |
+| 5        | `sum`             | Enter `<term>`           | ... recurses to `<term>`.                               |
+| 6        | `sum`             | Enter `<factor>`         | ... recurses to `<factor>`.                             |
+| 7        | `+`               | Exit `<factor>`          | `<factor>` identifies `sum` (IDENT). Returns.           |
+| 8        | `+`               | Exit `<term>`            | `<term>` sees `+` (not `*` or `/`). Returns.            |
+| 9        | `47`              | Enter `<term>`           | `<expr>` sees `+`, calls `<term>` for RHS.              |
+| 10       | `47`              | Enter `<factor>`         | `<term>` calls `<factor>`.                              |
+| 11       | `)`               | Exit `<factor>`          | `<factor>` identifies `47` (INT_LIT). Returns.          |
+| 12       | `)`               | Exit `<term>`            | Returns.                                                |
+| 13       | `/`               | Exit `<expr>`            | Consumes `)`, returns.                                  |
+| 14       | `total`           | Enter `<factor>`         | Processing division RHS.                                |
+| 15       | `EOF`             | Exit `<factor>`          | Identifies `total`.                                     |
+|          |                   |                          |                                                         |
+![[Pasted image 20260206162631.png]]
 #### 4.4.2 The LL Grammar Class (Algorithms)
 
 To use Recursive Descent (LL), the grammar must be free of **Left Recursion** and pass the **Pairwise Disjointness** test.
