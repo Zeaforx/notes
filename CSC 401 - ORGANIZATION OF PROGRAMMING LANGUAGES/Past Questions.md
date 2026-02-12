@@ -238,6 +238,17 @@ Generate the associated lexemes and tokens associated with it.
 
 **Answer:**
 
+| Lexeme | Token       |
+| ------ | ----------- |
+| Index  | IDENTIFIER  |
+| =      | ASSIGN_OP   |
+| 2      | INT_LITERAL |
+| *      | MULTI_OP    |
+| count  | IDENTIFIER  |
+| +      | ADD_OP      |
+| 17     | INT_LITERAL |
+| ;      | SEMICOLON   |
+
 | **Lexeme** | **Token Category** |
 
 | `index` | `IDENTIFIER` |
