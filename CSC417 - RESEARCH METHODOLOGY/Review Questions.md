@@ -31,14 +31,11 @@ Online repositories are digital platforms where research materials are stored an
 ---
 
 ## 3. Difference Between Journal and Conference Paper
-
-| Feature | Journal Paper | Conference Paper |
-|----------|---------------|------------------|
-| Review Process | Rigorous peer review | Peer reviewed but usually shorter review cycle |
-| Length | Longer and detailed | Shorter and concise |
-| Publication Speed | Slower | Faster |
-| Depth of Research | More comprehensive | Often preliminary or focused |
-| Prestige | Generally higher | Depends on conference quality |
+|**Feature**|**Journal Paper**|**Conference Paper**|
+|---|---|---|
+|**Depth**|Very detailed, long, and comprehensive.|Concise, focused on a specific breakthrough.|
+|**Review Time**|Long (can take 6–12 months or more).|Fixed and faster (usually 2–4 months).|
+|**Presentation**|Usually no oral presentation required.|Requires the author to present at the event.|
 
 ---
 
@@ -52,6 +49,9 @@ Online repositories are digital platforms where research materials are stored an
 - Lack of informed consent
 - Data manipulation to fit hypothesis
 - Inadequate sample size without justification
+- **Salami Slicing:** Breaking one study into multiple tiny papers to increase publication count.
+- **P-hacking:** Manipulating data until you find a statistically significant result, even if it’s a fluke.
+- **Gift Authorship:** Including people as authors who didn't actually contribute to the research.
 
 ---
 
@@ -82,6 +82,9 @@ Online repositories are digital platforms where research materials are stored an
 **Summary:**
 - Theoretical framework = existing theory guiding the study.
 - Conceptual framework = diagram or model showing variables and relationships in your study.
+- **Theoretical Framework:** Based on **existing theories** (e.g., Queuing Theory for Kubernetes scheduling). It provides the broad lens through which you view the problem.
+    
+- **Conceptual Framework:** This is **your specific map** for your study. It shows how the variables you’ve chosen (like Spot VM availability vs. Pod eviction rates) relate to each other.
 
 ---
 
@@ -119,14 +122,6 @@ Online repositories are digital platforms where research materials are stored an
 ## 9. Explain the Types of Reports
 
 Reports can be classified based on purpose and structure:
-
-### a) Informational Report
-Provides facts, data, or findings without analysis or recommendations.  
-Example: Survey results report.
-
-### b) Analytical Report
-Analyzes data and provides conclusions and recommendations.  
-Example: Feasibility report.
 
 ### c) Technical Report
 Focuses on technical details of a project or research.  
